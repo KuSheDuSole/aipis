@@ -1,13 +1,12 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
+// Главная фунция - точка входа в программу
 int main(){
 
-    string name;
-    cout << "Enter your name: ";
-    cin >> name;
+    std::string name; // Переменная имени пользователя
+    std::cout << "Enter your name: ";
+    std::cin >> name; // Чтение ввода пользователя
 
-    cout << "Hello_world from " << name << endl;
+    std::cout << "Hello_world from " << name << std::endl; // Вывод приветственного сообщения
 }
